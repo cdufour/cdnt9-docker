@@ -1,0 +1,4 @@
+FROM nginx
+
+# écrase la config par défaut
+COPY ./default.conf /etc/nginx/conf.d/default.conf

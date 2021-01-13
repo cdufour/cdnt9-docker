@@ -1,6 +1,7 @@
-** TP **
-Création une application PHP/mysql permettant d'afficher d'enregistrer des citations + nom de l'auteur
-C'est application devra être "dockerisée". 
-- Un conteneur fournira un serveur apache, ce conteneur condiendra les sources de l'applications (fichier index.php s'adressant à la base de données via la bibliothèque PDO par exemple)
+** TP 1 **
+Créer une application php/mysql permettant d'enregistrer des citations + nom de l'auteur
+Cette application devra être "dockerisée". 
+- Un conteneur fournira un serveur apache, ce conteneur contiendra les sources de l'applications 
+(fichier index.php s'adressant à la base de données via la bibliothèque PDO, par exemple)
 - Un autre conteneur fournira un serveur mysql disposant d'une base "demo" et d'une table "citation".
-Une citation aura un ID, un contenu et un auteur.
+Colonnes de la table citation: id, contenu, auteur.
